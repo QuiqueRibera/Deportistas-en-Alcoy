@@ -1,0 +1,171 @@
+   
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+h1 {
+    font-family: 'Playfair Display', Georgia, Times, serif;
+    color: rgb(0, 0, 0);   
+    margin-left: 0%;
+}
+
+.portada h2{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.portada img{
+    width: 100%;
+    max-width: 375px;
+    height: 375px;
+    margin-bottom: 30px;
+}
+
+.cuerpo{
+    margin-top: 70px;
+}
+.cuerpo p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    line-height: 2em;
+    margin-bottom: 30px;
+    color:rgb(0, 0, 0);
+}
+
+.pills {
+    border-bottom:2px solid #1993a8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pills-futbol11{
+  border-bottom:2px solid #1d6996;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pills-voleibol{
+  border-bottom:2px solid #edad08;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pills-ciclismo{
+  border-bottom:2px solid #73af48;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pills-atletismo{
+  border-bottom:2px solid #94346e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pills-futbolsala{
+  border-bottom:2px solid #cc503e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pills-futbol8{
+  border-bottom:2px solid #0f8554;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pills-ajedrez{
+  border-bottom:2px solid #994e95;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pills-gimnasia{
+  border-bottom:2px solid #0008ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pills-mujer{
+  border-bottom:2px solid #aa4141;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pills-hombre{
+  border-bottom:2px solid #279039;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Estilos para la parte de Scrollama */
+
+#scrolly {
+    position: relative;
+    /* background-color: #f3f3f3; */
+    padding: 1rem;
+  }
+
+  .article-steps {
+    position: relative;
+    padding: 0;
+    max-width: 648px;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  .chart{
+    max-height: 30vh;
+  }
+
+  .sticky-thing {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    /* background-color: #8a8a8a; */
+    background-image: url("img/Deportistas por año en alcoy.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: 0;
+    top: 10vh;
+    height: 80vh;
+    transition: all 0.5s ease;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .sticky-thing p {
+    font-size: 8rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+ 
+  }
+
+  .step {
+    margin: 0 auto 50vw auto;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .step:last-child {
+    margin-bottom: 0;
+  }
+
+  .step.is-active p {
+    background-color: goldenrod;
+    color: #f9f9f9;
+  }
+
+  .step p {
+    /* text-align: center; */
+    padding: 1rem;
+    font-size: 1.2rem;
+    /* background-color: #3b3b3b; */
+    background-color: rgba(255, 255, 255, 0.85);
+  }
+
+  img {
+    width: 100%;
+    max-width: 648px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .btn-outline-primary{
+    background-color: #fff;
+  }

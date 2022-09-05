@@ -1,125 +1,86 @@
 <!doctype html>
-<html lang="en" class="h-100">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.88.1">
-    <title>Sticky Footer Navbar Template · Bootstrap v5.1</title>
+<html lang="es">
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sticky-footer-navbar/">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <title>El deporte escolar, en auge - MIP</title>
 
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="assets/css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header>
+    <!-- Fixed navbar -->
     
+  </header>
 
-    <!-- Bootstrap core CSS -->
-<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      main > .container {
-  padding: 60px 15px 0;
-}
-    </style>
-
-    
-    <!-- Custom styles for this template -->
-    <link href="sticky-footer-navbar.css" rel="stylesheet">
-  </head>
-  <body class="d-flex flex-column h-100">
-    
-<header>
-  <!-- Fixed navbar -->
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Fixed navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+  <!-- Comienzo del artículo -->
+  <article class="main" role="main">
+    <!-- Portada -->
+    <!-- div para ocupar todo nuestro viewport -->
+    <div class="portada vh-100 vw-100 text-center mw-100 mx-auto">
+      <!-- div para centrar todos los elementos de portada -->
+      <div class="position-absolute top-50 translate-middle-y w-100">
+        <img src="https://www.alcoi.org/export/sites/default/es/areas/deportes/eventos/imagenes/xiquet-39-Jocs.jpg" alt="logo Jocs Esportius d'Alcoi">
+        <h1> El deporte escolar, en auge</h1>
+        <h2>El deporte escolar en la ciudad de Alcoy supera las cifras de deportistas prepandémicas y bate el récord de inscritos de los últimos 5 años.</h2>
       </div>
+      <p class="position-absolute start-50 bottom-0 text-center translate-middle">Scroll para continuar</p>
     </div>
-  </nav>
-</header>
 
-<!-- Begin page content -->
-<main class="flex-shrink-0">
-  <div class="container">
-    <h1 class="mt-5">Sticky footer with fixed navbar</h1>
-    <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code class="small">padding-top: 60px;</code> on the <code class="small">main &gt; .container</code>.</p>
-    <p>Back to <a href="../examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p>
-  </div>
-  <div style="background-color: red;">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non id odio assumenda laudantium repellendus sapiente placeat suscipit alias illo eius necessitatibus amet minus, vel doloremque? Inventore laborum quas sunt libero.
-  </div>
-  <div style="background-color: blue;">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dignissimos iusto ipsa. Debitis neque, ipsum sint quibusdam officia pariatur velit excepturi corrupti fugiat quia incidunt quo deleniti eligendi obcaecati harum!
-  </div>
+    <!-- Seccion Scrollama -->
+    <section id="scrolly">
+      <div class="sticky-thing">
+        <!-- <p>0</p> -->
+      </div>
 
-  <div class="row"> 
-    <div class="col-12 col-sm-12 col-md-6 col-lg-4 border p-2 bg-primary text-white">
-      <h3>Columna</h3> 
-    </div>
-    <div class="col-12 col-sm-12 col-md-6 col-lg-4 border p-2  bd-dc3545">
-      <h3>Columna</h3> 
-    </div>
-    <div class="col-12 col-sm-12 col-md-6 col-lg-4 border p-2 ">
-      <h3>Columna</h3> 
-    </div>
-    <div class="col-12 col-sm-12 col-md-6 border col-lg-6 p-2 ">
-      <h3>Columna</h3> 
-    </div>
-    <div class="row justify-content-end col-12 col-sm-12 col-md-12 col-lg-12 border p-2">
-      columna
-    </div>
-    <div class="row justify-content-center col-12 col-sm-12 col-md-12 col-lg-12 border p-2">
-      columna
-    </div>
-    <div class="row justify-content-start col-12 col-sm-12 col-md-12 col-lg-12 border p-2">
-      columna
-    </div>
-  </div>
+      <article class="article-steps">
+        <div class="step" data-url='url("img/Deportistas por año en alcoy.png")'>
+          <p>El número de<span class="pills"> deportistas </span> alcoyanos en edad escolar ha batido su récord de inscripciones en los últimos cinco años, superando así las cifras registradas antes de la pándemia provocada por la COVID-19. El último año, más de 2.000 jóvenes participaron en alguna de las competiciones organizadas por el ayuntamiento local, muy por encima de los 1.390 registrados en el 2020 y superando también los 1888 registrados en el año 2017. </p>
+        </div>
+        <div class="step" data-url='url("img/Deportes que aumentan.png")'>
+          <p>La principal causa de este aumento son las nuevas modalidades que ha incorporado el Ayuntamiento al catálogo de competiciones deportivas que organizan. Con las restricciones, se abrió la vía del<span class="pills-futbol11"> fútbol11 </span>al contar con un campo muy grande y al aire libre. Esta modalidad que tradicionalmente no existía en los deportes escolares ha traido a más de 350 deportistas esta última temporada. Pero no solo el deporte rey, el <span class="pills-voleibol">voleibol </span>ha triplicado sus números, pasando de 45 federados en 2017 a 133. Otro de los deportes que la pandemia ha vuelto a poner de moda es el <span class="pills-ciclismo">ciclismo</span>. Al practicarse de forma individual y al aire libre ha sido una de las salidas preferidas por muchos jóvenes a la hora de practicar un deporte que vió su pico de inscritos en el año de la pandemia con 150 ciclistas federados. A esta lista de deportes en crecimiento se suma otro de los reyes del deporte de exterior, el <span class="pills-atletismo">atletismo </span>. Uno de los deportes estrella de los J.J.O.O ha visto que, tras su parada en seco el año de la pandemia, como ha resurgido con mejores números que nunca situando en 73 los alcoyanos que practican esta modalidad.</p>
+        </div>
+        <div class="step" data-url='url("img/Descenso después de pandemia.png")'>
+          <p>Sin embargo, otros deportes han sufrido más las consecuencias de la pandemia, muchos de ellos los practicados bajo techo, como el <span class="pills-futbolsala">fútbol sala</span> que ha pasado de ser uno de los deportes más practicados de la ciudad con más de 800 inscritos, a contar con menos de la mitad (381). Tambén han notado su práctica cubierta deportes como el <span class="pills-ajedrez">ajedrez</span> que también ha descendido hatsa quedarse con 18 practicantes y la <span class="pills-gimnasia">gimnasia rítmica</span> que pese a estar recuperando deportistas, sigue con numeros peores que en 2017.</p>
+        </div>
+        <div class="step" data-url='url("img/Deportistas por sexos.png")'>
+          <p>Pero esta subida no ha sido igual para hombres que para mujeres. La progresión hasta la pandemia hacía pensar que la igualdad de deportistas <span class="pills-hombre">masculinos</span> y <span class="pills-mujer">femeninos</span> estaba cerca de llegar. Nada más lejos de la realidad, el confinamiento y las restricciones han provocado un frenazo en el progreso de las <span class="pills-mujer">mujeres</span> deportistas</p>
+        </div>
+        <div class="step" data-url='url("img/Deportistas por sexos.png")'></div>
+      </article>
+    </section>
 
-</main>
+    <!-- Cuerpo articulo -->
+    <div class="cuerpo container col-lg-5">
+      <iframe src='https://flo.uri.sh/visualisation/11102327/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:80vh;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/11102327/?utm_source=embed&utm_campaign=visualisation/11102327' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+      <p>La pandemia ha cambiado muchas formas de ver la vida, pero, sobre todo, ha aumentado nuestras ganas de salir de casa y eso se ha notado en todas las parcelas de la vida, y el deporte no ha sido menos.</p>
+      <p>Pero este aumento de las ganas no se ha visto reflejado en las mujeres que han visto como se ha frenado en seco su incorporación al mundo del deporte.</p>
+      <p>*Los datos de este proyecto han sido cedidos por el Centre d'Esports d'Alcoi (Centro de deportes de Alcoy) y cuentan con los datos de deportistas que compiten en las organizadas por el ayuntamiento, dejando fuera las federaciones externas al ayuntamiento, por lo que el número de deportistas de disciplinas como el fútbol pueden no contar con todos los jóvenes que practican realmente este deporte.</p>
+      <p>Para ver los datos, visita la siguiente <a href="https://docs.google.com/spreadsheets/d/15pcmCRJjeYZJMuNGokHoZnAx_g9241BDatYKuyKQIGY/edit?usp=sharing">hoja de cálculo</a>.</p>
 
 
-<footer class="footer mt-auto py-3 bg-light">
-  <div class="container">
-    <span class="text-muted">Place sticky footer content here.</span>
-  </div>
-</footer>
+ 
+  
+  <!-- Libreria Scrollama -->
+  <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+  <script src="https://unpkg.com/scrollama"></script>
+  <script src="assets/js/custom.js"></script>
+<div style="display: none;">
+<img src="img/Deportes que aumentan.png" width="1" height="1" alt="Gráfica sobre la evolución de deportistas">
+<img src="img/Deportistas por año en alcoy.png" width="1" height="1" alt="Gráfica sobre la evolución de deportistas">
+<img src="img/Deportistas por sexos.png" width="1" height="1" alt="Gráfica sobre la evolución de deportistas">
+<img src="img/Descenso después de pandemia.png" width="1" height="1" alt="Gráfica sobre la evolución de deportistas">
 
+</div>
+</body>
 
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-
-      
-  </body>
 </html>
